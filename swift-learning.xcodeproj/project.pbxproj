@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F082F2327FEC2EB0089A997 /* controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F082F2227FEC2EB0089A997 /* controls.swift */; };
+		0F525E262804066A00023D3A /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F525E252804066A00023D3A /* functions.swift */; };
 		0F90810E27FFDE510078F504 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90810D27FFDE510078F504 /* strings.swift */; };
 		0F90816C28016FD50078F504 /* optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90816B28016FD50078F504 /* optional.swift */; };
 		0FA3D30D2802A53C00110B01 /* array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3D30C2802A53C00110B01 /* array.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0F082F2227FEC2EB0089A997 /* controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controls.swift; sourceTree = "<group>"; };
+		0F525E252804066A00023D3A /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		0F90810D27FFDE510078F504 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
 		0F90816B28016FD50078F504 /* optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optional.swift; sourceTree = "<group>"; };
 		0FA3D30C2802A53C00110B01 /* array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = array.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		0FEBB4C627FBE2E800A50D93 = {
 			isa = PBXGroup;
 			children = (
+				0F525E252804066A00023D3A /* functions.swift */,
 				0FA3D30E2802B21D00110B01 /* collections.swift */,
 				0FA3D30C2802A53C00110B01 /* array.swift */,
 				0F90816B28016FD50078F504 /* optional.swift */,
@@ -134,6 +137,7 @@
 				0FA3D30F2802B21D00110B01 /* collections.swift in Sources */,
 				0F082F2327FEC2EB0089A997 /* controls.swift in Sources */,
 				0FA3D30D2802A53C00110B01 /* array.swift in Sources */,
+				0F525E262804066A00023D3A /* functions.swift in Sources */,
 				0F90816C28016FD50078F504 /* optional.swift in Sources */,
 				0FEBB4DD27FC181600A50D93 /* var-const.swift in Sources */,
 				0F90810E27FFDE510078F504 /* strings.swift in Sources */,
