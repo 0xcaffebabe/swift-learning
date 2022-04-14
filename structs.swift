@@ -26,6 +26,11 @@ struct Location {
         self.x = x
     }
     
+    // 如果不加mutating这个关键字 这个方法就没法修改结构体
+    mutating func setX(x: Int) {
+        self.x += 1
+    }
+    
     func distance() -> Int {
         return x - y
     }
