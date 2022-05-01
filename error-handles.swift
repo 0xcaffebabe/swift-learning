@@ -38,3 +38,13 @@ do {
 }catch {
     print("unknow error")
 }
+
+// 使用Nerver代表异常情况
+func errorHandle() -> Never {
+    print("!!!")
+    fatalError()
+}
+var aaa = 1
+guard aaa != 1 else {
+    errorHandle()
+}

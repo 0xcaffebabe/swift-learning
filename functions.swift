@@ -86,3 +86,9 @@ func execute(){
     innerFunc()
 }
 execute()
+
+// @autoclosure 自动将值封装成匿名函数
+func test(f: @autoclosure () -> String) -> String {
+    return f()
+}
+test(f: "test")
